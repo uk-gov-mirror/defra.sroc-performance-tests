@@ -1,0 +1,415 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1588683224298,288,HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,6359,339,1,2,0,105,0
+1588683224313,287,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,5670,339,1,2,287,0,229
+1588683224690,1,Debug Sampler,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,689,0,1,2,0,0,0
+1588683224302,192,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,5676,339,1,2,0,10044,0
+1588683234310,192,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,Concurrent Login Test1 10-1,text,true,,5676,339,1,2,192,0,139
+1588683224692,581,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27201,1867,1,2,0,12087,0
+1588683236778,581,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27201,1867,1,2,382,0,163
+1588683237361,144,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,25606,976,1,2,0,46,0
+1588683237361,144,https://sroc-pre.aws.defra.cloud/,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,25606,976,1,2,101,0,0
+1588683244164,206,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,5676,339,1,3,0,30,0
+1588683244167,206,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,5676,339,1,3,205,0,155
+1588683234539,4494,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,37309,1860,1,3,0,10003,0
+1588683244541,4494,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,Concurrent Login Test1 10-1,text,true,,37309,1860,1,3,3005,0,2695
+1588683237552,3001,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,23225,1078,1,3,0,9067,0
+1588683246578,3001,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,23225,1078,1,3,2927,0,2692
+1588683249037,416,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,35721,976,1,3,0,10051,0
+1588683259040,416,https://sroc-pre.aws.defra.cloud/,200,OK,Concurrent Login Test1 10-1,text,true,,35721,976,1,3,315,0,199
+1588683244400,618,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,25022,1857,1,3,0,16429,0
+1588683260828,618,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,25022,1857,1,3,446,0,156
+1588683261447,144,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,23412,976,1,3,0,38,0
+1588683261448,144,https://sroc-pre.aws.defra.cloud/,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,23412,976,1,3,108,0,0
+1588683264162,214,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,5670,339,1,4,0,46,0
+1588683264163,214,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,5670,339,1,4,214,0,164
+1588683249620,620,TransactionHistory_Installations_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,9500,907,1,4,0,16636,0
+1588683266257,620,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions/43529,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,9500,907,1,4,618,0,160
+1588683259504,432,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,25204,1078,1,4,0,10046,0
+1588683269508,432,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,25204,1078,1,4,361,0,159
+1588683274172,217,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,5670,339,1,5,0,56,0
+1588683274173,217,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,5670,339,1,5,217,0,145
+1588683261629,476,TransactionHistory_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,22251,1078,1,5,0,14323,0
+1588683275910,476,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,22251,1078,1,5,428,0,192
+1588683264423,665,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,25022,1865,1,5,0,13723,0
+1588683278145,665,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,25022,1865,1,5,477,0,248
+1588683278812,146,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,23405,976,1,5,0,61,0
+1588683278815,146,https://sroc-pre.aws.defra.cloud/,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,23405,976,1,5,112,0,0
+1588683269984,956,TransactionHistory_Installations_SetRegionToB,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,18639,1033,1,5,0,10006,0
+1588683279987,956,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,18639,1033,1,5,920,0,150
+1588683284179,257,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,5676,339,1,6,0,92,0
+1588683284187,257,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,5676,339,1,6,255,0,205
+1588683266878,426,TransactionHistory_Installations_SetRegionToB,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,18217,1033,1,6,0,17636,0
+1588683284511,426,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,18217,1033,1,6,390,0,182
+1588683276428,433,TransactionHistory_Waste_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17338,1035,1,6,0,14082,0
+1588683290509,433,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17338,1035,1,6,398,0,176
+1588683280946,357,SetRegimeToWaste,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,33708,910,1,6,0,10037,0
+1588683290948,357,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions,200,OK,Concurrent Login Test1 10-1,text,true,,33708,910,1,6,261,0,142
+1588683294177,264,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,5676,339,1,7,0,47,0
+1588683294180,264,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,5676,339,1,7,264,0,207
+1588683274446,627,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,36602,1860,1,7,0,20096,0
+1588683294539,627,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,36602,1860,1,7,420,0,224
+1588683295171,246,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,34992,976,1,7,0,131,0
+1588683295174,246,https://sroc-pre.aws.defra.cloud/,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,34992,976,1,7,127,0,0
+1588683279019,538,TransactionHistory_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,24622,1078,1,7,0,19629,0
+1588683298607,538,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,24622,1078,1,7,496,0,155
+1588683291340,441,TransactionHistory_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,24222,1078,1,7,0,10051,0
+1588683301342,441,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,24222,1078,1,7,400,0,174
+1588683304167,217,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,5676,339,1,8,0,36,0
+1588683304168,217,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,5676,339,1,8,216,0,170
+1588683284940,478,TransactionHistory_Installations_ChangeItemsPerPageTo20,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27366,1033,1,8,0,20784,0
+1588683305724,478,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=20&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27366,1033,1,8,395,0,190
+1588683295549,470,TransactionsToBeBilled_Installations_SetRegionToN,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,31082,1038,1,8,0,12454,0
+1588683308002,470,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=N&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,31082,1038,1,8,432,0,188
+1588683299187,2347,TransactionHistory_WaterQuality_SetRegionToE,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,19464,1033,1,8,0,10287,0
+1588683309473,2347,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,19464,1033,1,8,732,0,166
+1588683301832,521,TransactionHistory_Waste_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,17754,1035,1,8,0,10003,0
+1588683311834,521,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,17754,1035,1,8,485,0,167
+1588683294489,873,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,36891,1865,1,8,0,17065,0
+1588683311551,873,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,36891,1865,1,8,483,0,211
+1588683312429,290,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,35303,976,1,8,0,44,0
+1588683312430,290,https://sroc-pre.aws.defra.cloud/,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,35303,976,1,8,217,0,0
+1588683314171,265,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,5670,339,1,9,0,35,0
+1588683314175,265,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,5670,339,1,9,265,0,215
+1588683284528,606,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,34423,1861,1,9,0,29934,0
+1588683314461,606,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,34423,1861,1,9,416,0,207
+1588683315068,186,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,32821,976,1,9,0,26,0
+1588683315069,186,https://sroc-pre.aws.defra.cloud/,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,32821,976,1,9,110,0,0
+1588683308473,288,TransactionsToBeBilled_Installations_SortByFileDate,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,8588,1029,1,9,0,7383,0
+1588683315856,288,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions?search=&page=1&per_page=10&sort=file_date&sort_direction=asc&region=N&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,8588,1029,1,9,287,0,180
+1588683306203,488,TransactionHistory_Installations_LastPage,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27940,1034,1,9,0,12399,0
+1588683318600,488,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=49&per_page=20&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27940,1034,1,9,380,0,147
+1588683290945,406,TransactionHistory_Waste_Page2,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17819,1035,1,9,0,29150,0
+1588683320094,406,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=2&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17819,1035,1,9,354,0,124
+1588683304421,553,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,27682,1861,1,9,0,17800,0
+1588683322222,553,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,27682,1861,1,9,372,0,154
+1588683312357,469,SetRegimeToWaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,39112,910,1,9,0,10003,0
+1588683322360,469,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions,200,OK,Concurrent Login Test1 10-1,text,true,,39112,910,1,9,360,0,144
+1588683322776,212,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,26080,976,1,9,0,20,0
+1588683322777,212,https://sroc-pre.aws.defra.cloud/,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,26080,976,1,9,103,0,0
+1588683324180,190,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,5676,339,1,10,0,32,0
+1588683324182,190,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,5676,339,1,10,189,0,131
+1588683314472,623,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,29251,1865,1,10,0,9410,0
+1588683323881,623,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,29251,1865,1,10,343,0,138
+1588683324508,274,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,27661,976,1,10,0,20,0
+1588683324509,274,https://sroc-pre.aws.defra.cloud/,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,27661,976,1,10,196,0,0
+1588683319091,995,TransactionHistory_Installations_SearchForCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27380,1038,1,10,0,5800,0
+1588683324892,995,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=A1601&page=1&per_page=20&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27380,1038,1,10,912,0,147
+1588683311821,678,TransactionHistory_WaterQuality_ChangeItemsPerPageTo50,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,57488,1033,1,10,0,14343,0
+1588683326163,678,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=50&sort=customer_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,57488,1033,1,10,524,0,132
+1588683323008,294,SetRegimeToInstallations,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,26192,910,1,10,0,8872,0
+1588683331857,294,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,26192,910,1,10,216,0,122
+1588683322831,538,TransactionHistory_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,26526,1078,1,10,0,10020,0
+1588683332831,538,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,26526,1078,1,10,502,0,145
+1588683312763,393,TransactionsToBeBilled_WaterQuality_SetRegionToN,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,31000,1038,1,10,0,21324,0
+1588683334086,393,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=N&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,31000,1038,1,10,319,0,129
+1588683324803,533,TransactionHistory_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,25029,1078,1,10,0,12597,0
+1588683337370,533,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,25029,1078,1,10,458,0,133
+1588683320502,1823,TransactionHistory_Waste_SearchForPermit,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17354,1039,1,10,0,17182,0
+1588683337682,1823,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=0712&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17354,1039,1,10,1784,0,121
+1588683316145,238,TransactionsToBeBilled_Installations_SearchForCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,8533,1035,1,10,0,23502,0
+1588683339647,238,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions?search=A16011&page=1&per_page=10&sort=file_date&sort_direction=asc&region=N&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,8533,1035,1,10,237,0,136
+1588683315281,353,TransactionsToBeBilled_Waste_SortByCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,28628,1039,1,10,0,27108,0
+1588683342389,353,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=desc&region=A&fy=,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,28628,1039,1,10,263,0,139
+1588683326843,931,TransactionHistory_WaterQuality_SearchForConsent,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,13203,1039,1,10,0,15933,0
+1588683342777,931,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=021231&page=1&per_page=50&sort=customer_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,13203,1039,1,10,931,0,127
+1588683333389,544,TransactionHistory_WaterQuality_SetRegionToE,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,19873,1033,1,10,0,10004,0
+1588683343393,544,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=E&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,19873,1033,1,10,510,0,114
+1588683332173,381,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,23707,1078,1,10,0,13050,0
+1588683345223,381,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,23707,1078,1,10,344,0,141
+1588683337932,735,TransactionHistory_WaterQuality_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,19848,1035,1,10,0,7546,0
+1588683345477,735,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,19848,1035,1,10,729,0,157
+1588683334481,465,TransactionsToBeBilled_WaterQuality_SearchForConsent,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,27151,1042,1,10,0,11435,0
+1588683345915,465,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions?search=EPRF&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=N&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,27151,1042,1,10,379,0,136
+1588683324402,565,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,37316,1860,1,10,0,25815,0
+1588683350215,565,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,37316,1860,1,10,372,0,149
+1588683350781,215,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,35714,976,1,10,0,20,0
+1588683350781,215,https://sroc-pre.aws.defra.cloud/,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,35714,976,1,10,107,0,0
+1588683339507,408,TransactionHistory_Waste_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,9160,888,1,10,0,11211,0
+1588683350717,408,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions/44960,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,9160,888,1,10,407,0,119
+1588683325888,405,TransactionHistory_Installations_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27359,1033,1,10,0,25109,0
+1588683350997,405,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=20&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27359,1033,1,10,365,0,129
+1588683339886,569,TransactionsToBeBilled_Installations_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,11547,888,1,10,0,12918,0
+1588683352802,569,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions/59635,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,11547,888,1,10,535,0,130
+1588683345604,352,TransactionHistory_Installations_SetRegionToB,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,18541,1033,1,10,0,10469,0
+1588683356072,352,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,18541,1033,1,10,351,0,122
+1588683351126,421,TransactionHistory_Waste_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17338,1035,1,10,0,6166,0
+1588683357291,421,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17338,1035,1,10,387,0,173
+1588683343709,810,TransactionHistory_WaterQuality_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,9646,888,1,10,0,14326,0
+1588683358034,810,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions/13230,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,9646,888,1,10,810,0,174
+1588683342744,339,TransactionsToBeBilled_Waste_SearchForCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,28653,1044,1,10,0,16304,0
+1588683359046,339,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions?search=A0101&page=1&per_page=10&sort=customer_reference&sort_direction=desc&region=A&fy=,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,28653,1044,1,10,269,0,134
+1588683346213,585,TransactionHistory_WaterQuality_NextPage,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,20340,1035,1,10,0,13895,0
+1588683360107,585,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=2&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,20340,1035,1,10,550,0,121
+1588683346382,1018,TransactionsToBeBilled_WaterQuality_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,16015,888,1,10,0,14590,0
+1588683360971,1018,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions/63880,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,16015,888,1,10,981,0,126
+1588683343938,651,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,41577,2121,1,10,0,20008,0
+1588683353941,176,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,Concurrent Login Test1 10-1,text,true,,2617,1145,1,10,176,0,110
+1588683364121,475,https://sroc-pre.aws.defra.cloud/,200,OK,Concurrent Login Test1 10-1,text,true,,38960,976,1,10,318,0,139
+1588683361991,481,TransactionsToBeBilled_WaterQuality_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,31000,1038,1,10,0,7142,0
+1588683369133,481,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=N&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,31000,1038,1,10,395,0,140
+1588683356425,450,TransactionHistory_Installations_SortByOriginalPermit,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,18504,1040,1,10,0,12974,0
+1588683369398,450,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=original_permit_reference&sort_direction=asc&region=B&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,18504,1040,1,10,409,0,174
+1588683358844,722,TransactionHistory_WaterQuality_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,57459,1033,1,10,0,10324,0
+1588683369167,722,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=50&sort=customer_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,57459,1033,1,10,574,0,151
+1588683351403,429,TransactionHistory_Installations_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27347,1035,1,10,0,18621,0
+1588683370024,429,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=20&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27347,1035,1,10,395,0,142
+1588683353373,290,TransactionsToBeBilled_Installations_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,8521,1029,1,10,0,18513,0
+1588683371884,290,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions?search=&page=1&per_page=10&sort=file_date&sort_direction=asc&region=N&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,8521,1029,1,10,288,0,159
+1588683360694,2469,TransactionHistory_WaterQuality_SearchForCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,19862,1041,1,10,0,10813,0
+1588683371506,2469,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=N00131&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,19862,1041,1,10,1844,0,147
+1588683364597,2460,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,5676,339,1,10,0,10023,0
+1588683374599,2460,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,Concurrent Login Test1 10-1,text,true,,5676,339,1,10,2407,0,2321
+1588683369852,399,TransactionHistory_Installations_LastPage,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,19188,1041,1,10,0,7079,0
+1588683376931,399,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=98&per_page=10&sort=original_permit_reference&sort_direction=asc&region=B&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,19188,1041,1,10,393,0,131
+1588683351017,428,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,25203,1078,1,10,0,29895,0
+1588683380876,428,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,25203,1078,1,10,348,0,135
+1588683357714,547,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,29866,2121,1,10,0,25053,0
+1588683382765,281,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,2617,1145,1,10,280,0,220
+1588683383047,266,https://sroc-pre.aws.defra.cloud/,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,27249,976,1,10,170,0,0
+1588683383316,55,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,5670,339,1,10,0,32,0
+1588683383318,55,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,5670,339,1,10,55,0,0
+1588683359386,334,TransactionsToBeBilled_Waste_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,10235,888,1,10,0,24250,0
+1588683383635,334,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions/44161,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,10235,888,1,10,334,0,144
+1588683377331,1236,TransactionHistory_Installations_SearchForFileSource,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,18586,1049,1,10,0,9448,0
+1588683386778,1236,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=PASBI0037&page=1&per_page=10&sort=original_permit_reference&sort_direction=asc&region=B&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,18586,1049,1,10,1236,0,142
+1588683377080,957,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,40556,1862,1,10,0,10005,0
+1588683387084,957,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,Concurrent Login Test1 10-1,text,true,,40556,1862,1,10,325,0,130
+1588683369614,892,TransactionHistory_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,25852,1078,1,10,0,17821,0
+1588683387434,892,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=N&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,25852,1078,1,10,824,0,169
+1588683373976,1681,TransactionHistory_WaterQuality_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,15617,907,1,10,0,12926,0
+1588683386902,1681,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions/24377,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,15617,907,1,10,1634,0,139
+1588683372177,443,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,24257,905,1,10,0,17533,0
+1588683389684,443,https://sroc-pre.aws.defra.cloud/regimes/pas/history,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,24257,905,1,10,371,0,152
+1588683370454,200,Pre-April2018TransactionsToBeBilled_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,7303,1042,1,10,0,22953,0
+1588683393407,200,https://sroc-pre.aws.defra.cloud/regimes/pas/retrospectives?search=&page=1&per_page=20&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,7303,1042,1,10,199,0,123
+1588683388016,622,TransactionHistory_Installations_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,12426,912,1,10,0,6845,0
+1588683394861,622,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions/40677,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,12426,912,1,10,621,0,124
+1588683381340,444,TransactionHistory_Installations_SetRegionToB,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,25216,1078,1,10,0,13881,0
+1588683395198,444,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,25216,1078,1,10,381,0,134
+1588683388328,621,TransactionHistory_WaterQuality_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,19940,1035,1,10,0,7917,0
+1588683396245,621,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,19940,1035,1,10,582,0,136
+1588683388045,418,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,38960,976,1,10,0,10031,0
+1588683398048,418,https://sroc-pre.aws.defra.cloud/,200,OK,Concurrent Login Test1 10-1,text,true,,38960,976,1,10,308,0,138
+1588683369890,677,TransactionHistory_WaterQuality_SortByConsent,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,58060,1032,1,10,0,28741,0
+1588683398630,677,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=50&sort=consent_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,58060,1032,1,10,462,0,134
+1588683383971,339,TransactionsToBeBilled_Waste_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,28635,1039,1,10,0,15529,0
+1588683399500,339,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=desc&region=A&fy=,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,28635,1039,1,10,270,0,144
+1588683390154,389,TransactionHistory_Installations_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,18541,1026,1,10,0,16036,0
+1588683406189,389,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=file_date&sort_direction=asc&region=all&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,18541,1026,1,10,353,0,144
+1588683388584,640,TransactionHistory_WaterQuality_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,19855,1035,1,10,0,18602,0
+1588683407186,640,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,19855,1035,1,10,598,0,182
+1588683399841,399,TransactionHistory_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,23604,1079,1,10,0,7968,0
+1588683407779,399,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=desc&region=A&fy=,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,23604,1079,1,10,359,0,141
+1588683398494,387,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,25271,1078,1,10,0,10021,0
+1588683408497,387,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,25271,1078,1,10,327,0,106
+1588683383403,589,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,28770,1867,1,10,0,29329,0
+1588683412731,589,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,28770,1867,1,10,334,0,131
+1588683413322,268,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,27183,976,1,10,0,17,0
+1588683413323,268,https://sroc-pre.aws.defra.cloud/,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,27183,976,1,10,200,0,0
+1588683408208,286,ExcludedTransactions_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,22084,908,1,10,0,5715,0
+1588683413922,286,https://sroc-pre.aws.defra.cloud/regimes/wml/exclusions,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,22084,908,1,10,239,0,123
+1588683399308,332,Pre-April2018TransactionsToBeBilled_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,22573,912,1,10,0,16535,0
+1588683415844,332,https://sroc-pre.aws.defra.cloud/regimes/cfd/retrospectives,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,22573,912,1,10,297,0,113
+1588683393608,383,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,28216,2121,1,10,0,23542,0
+1588683417151,216,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,2617,1145,1,10,216,0,150
+1588683417367,167,https://sroc-pre.aws.defra.cloud/,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,25599,976,1,10,92,0,0
+1588683417536,69,HomePage,200,"Number of samples in transaction : 2, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,6359,339,1,10,0,19,0
+1588683417536,68,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,5670,339,1,10,68,0,0
+1588683417623,1,Debug Sampler,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,689,0,1,10,0,0,0
+1588683408903,496,TransactionHistory_Installations_SetRegionToB,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,18640,1033,1,10,0,10001,0
+1588683418905,496,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,18640,1033,1,10,451,0,135
+1588683395666,841,TransactionHistory_Installations_SearchForCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,25256,870,1,10,0,22939,0
+1588683418582,841,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=A160005&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,25256,870,1,10,810,0,112
+1588683406581,452,TransactionHistory_Installations_SortByPeriod,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,18529,1023,1,10,0,13748,0
+1588683420330,452,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=period&sort_direction=asc&region=all&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,18529,1023,1,10,410,0,133
+1588683395484,559,TransactionHistory_Installations_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,18518,1040,1,10,0,24926,0
+1588683420410,559,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=original_permit_reference&sort_direction=asc&region=B&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,18518,1040,1,10,511,0,126
+1588683396867,950,TransactionHistory_WaterQuality_SortByCategory,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,19944,1030,1,10,0,25197,0
+1588683422063,950,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=sroc_category&sort_direction=asc&region=all&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,19944,1030,1,10,914,0,304
+1588683423014,385,Pre-April2018TransactionsToBeBilled_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,24052,912,1,10,0,5648,0
+1588683428662,385,https://sroc-pre.aws.defra.cloud/regimes/cfd/retrospectives,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,24052,912,1,10,352,0,130
+1588683419401,348,SetRegimeToWaste,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,33722,910,1,10,0,10023,0
+1588683429403,348,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions,200,OK,Concurrent Login Test1 10-1,text,true,,33722,910,1,10,263,0,142
+1588683413607,444,TransactionHistory_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,22304,1078,1,10,0,19223,0
+1588683432809,444,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,22304,1078,1,10,398,0,166
+1588683420782,226,Pre-April2018TransactionsToBeBilled_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,7809,1030,1,10,0,12354,0
+1588683433136,226,https://sroc-pre.aws.defra.cloud/regimes/pas/retrospectives?search=&page=1&per_page=10&sort=period&sort_direction=asc&region=all&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,7809,1030,1,10,226,0,142
+1588683407827,413,TransactionsToBeBilled_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,27769,910,1,10,0,25839,0
+1588683433666,413,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,27769,910,1,10,332,0,131
+1588683419447,413,TransactionHistory_Installations_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,25231,1078,1,10,0,17009,0
+1588683436423,413,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,25231,1078,1,10,341,0,122
+1588683414209,965,ReviewAnnualBillingData_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,12886,923,1,10,0,25453,0
+1588683439643,965,https://sroc-pre.aws.defra.cloud/regimes/wml/annual_billing_data_files,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,12886,923,1,10,516,0,390
+1588683420969,1552,TransactionHistory_Installations_SortByAmount,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,18499,1021,1,10,0,18126,0
+1588683439094,1552,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=amount&sort_direction=asc&region=B&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,18499,1021,1,10,449,0,154
+1588683417625,1628,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27201,1857,1,10,0,22011,0
+1588683439634,1628,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27201,1857,1,10,700,0,398
+1588683441263,1411,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,25591,976,1,10,0,23,0
+1588683441265,1411,https://sroc-pre.aws.defra.cloud/,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,25591,976,1,10,1307,0,0
+1588683429772,2936,TransactionHistory_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,24229,1078,1,10,0,10024,0
+1588683439775,2936,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,24229,1078,1,10,1487,0,834
+1588683416176,331,Pre-April2018TransactionsToBeBilled_WaterQuality_ChangeItemsPerPageTo10,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,8199,1039,1,10,0,28225,0
+1588683444399,331,https://sroc-pre.aws.defra.cloud/regimes/cfd/retrospectives?search=&page=1&per_page=10&sort=consent_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,8199,1039,1,10,331,0,130
+1588683429048,353,ExcludedTransactions_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,18836,1033,1,10,0,20059,0
+1588683449107,353,https://sroc-pre.aws.defra.cloud/regimes/cfd/exclusions?search=&page=1&per_page=10&sort=sroc_category&sort_direction=asc&region=all&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,18836,1033,1,10,306,0,125
+1588683433363,287,ExcludedTransactions_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,23135,908,1,10,0,16424,0
+1588683449787,287,https://sroc-pre.aws.defra.cloud/regimes/pas/exclusions,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,23135,908,1,10,248,0,133
+1588683440628,214,ReviewAnnualBillingData_Waste_ViewCSVFile,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,10433,935,1,10,0,9591,0
+1588683450220,214,https://sroc-pre.aws.defra.cloud/regimes/wml/annual_billing_data_files/44,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,10433,935,1,10,213,0,144
+1588683444731,279,Pre-April2018TransactionsToBeBilled_WaterQuality_SortByFileReference,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,8193,1036,1,10,0,6997,0
+1588683451728,279,https://sroc-pre.aws.defra.cloud/regimes/cfd/retrospectives?search=&page=1&per_page=10&sort=file_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,8193,1036,1,10,278,0,119
+1588683433275,418,TransactionHistory_Waste_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17331,1035,1,10,0,18893,0
+1588683452168,418,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17331,1035,1,10,411,0,125
+1588683442733,383,TransactionHistory_Waste_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,17761,1035,1,10,0,10002,0
+1588683452735,383,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,17761,1035,1,10,345,0,131
+1588683442698,384,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,23226,1078,1,10,0,12490,0
+1588683455165,384,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,23226,1078,1,10,348,0,149
+1588683434080,367,Pre-April2018TransactionsToBeBilled_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,23061,912,1,10,0,24308,0
+1588683458335,367,https://sroc-pre.aws.defra.cloud/regimes/cfd/retrospectives,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,23061,912,1,10,321,0,146
+1588683440647,397,TransactionsToBeBilled_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,26185,910,1,10,0,19676,0
+1588683460322,397,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,26185,910,1,10,310,0,164
+1588683455572,546,TransactionHistory_Installations_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,9493,907,1,10,0,6368,0
+1588683461940,546,https://sroc-pre.aws.defra.cloud/regimes/pas/transactions/43529,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,9493,907,1,10,545,0,141
+1588683453119,415,SetRegimeToWaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,39141,910,1,10,0,10003,0
+1588683463121,415,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions,200,OK,Concurrent Login Test1 10-1,text,true,,39141,910,1,10,315,0,123
+1588683436869,243,Pre-April2018TransactionsToBeBilled_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,14476,1085,1,10,0,28378,0
+1588683465228,243,https://sroc-pre.aws.defra.cloud/regimes/pas/retrospectives?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,14476,1085,1,10,209,0,119
+1588683458756,351,Pre-April2018TransactionsToBeBilled_WaterQuality_SortByCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,18175,1043,1,10,0,9136,0
+1588683467892,351,https://sroc-pre.aws.defra.cloud/regimes/cfd/retrospectives?search=&page=1&per_page=10&sort=customer_reference&sort_direction=desc&region=all&fy=,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,18175,1043,1,10,306,0,131
+1588683463538,563,TransactionHistory_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,26534,1078,1,10,0,10032,0
+1588683473544,563,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,26534,1078,1,10,491,0,140
+1588683450435,417,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,35439,2121,1,10,0,25693,0
+1588683476125,223,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,2617,1145,1,10,223,0,157
+1588683476350,194,https://sroc-pre.aws.defra.cloud/,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,32822,976,1,10,110,0,0
+1588683476546,53,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,5670,339,1,10,0,45,0
+1588683476546,53,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,5670,339,1,10,53,0,0
+1588683449461,253,ReviewAnnualBillingData_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,14111,923,1,10,0,27033,0
+1588683476493,253,https://sroc-pre.aws.defra.cloud/regimes/cfd/annual_billing_data_files,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,14111,923,1,10,224,0,157
+1588683452586,413,TransactionHistory_Waste_Page2,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17825,1035,1,10,0,24036,0
+1588683476621,413,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=2&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17825,1035,1,10,378,0,163
+1588683460720,263,Pre-April2018TransactionsToBeBilled_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,7553,1028,1,10,0,16181,0
+1588683476901,263,https://sroc-pre.aws.defra.cloud/regimes/pas/retrospectives?search=&page=1&per_page=10&sort=amount&sort_direction=asc&region=B&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,7553,1028,1,10,263,0,167
+1588683450075,304,ExcludedTransactions_Installations_SortByExclusionReason,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,17396,1035,1,10,0,26953,0
+1588683477027,304,https://sroc-pre.aws.defra.cloud/regimes/pas/exclusions?search=&page=1&per_page=10&sort=excluded_reason&sort_direction=asc&region=all&fy=,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,17396,1035,1,10,302,0,159
+1588683452008,496,TransactionsToBeBilled_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,27281,910,1,10,0,27214,0
+1588683479221,496,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,27281,910,1,10,324,0,140
+1588683462487,554,TransactionHistory_Installations_SetRegionToB,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,18217,1033,1,10,0,19187,0
+1588683481673,554,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,18217,1033,1,10,482,0,244
+1588683477332,270,ReviewAnnualBillingData_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,9762,923,1,10,0,5629,0
+1588683482960,270,https://sroc-pre.aws.defra.cloud/regimes/pas/annual_billing_data_files,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,9762,923,1,10,269,0,196
+1588683474133,530,TransactionHistory_WaterQuality_SetRegionToE,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,19880,1033,1,10,0,10003,0
+1588683484136,530,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=E&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,19880,1033,1,10,497,0,184
+1588683465492,332,Pre-April2018TransactionsToBeBilled_Installations_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,14471,1087,1,10,0,21050,0
+1588683486521,332,https://sroc-pre.aws.defra.cloud/regimes/pas/retrospectives?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,14471,1087,1,10,332,0,198
+1588683477164,235,Pre-April2018TransactionsToBeBilled_Installations_SetRegionToAll,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,7549,1030,1,10,0,10719,0
+1588683487881,235,https://sroc-pre.aws.defra.cloud/regimes/pas/retrospectives?search=&page=1&per_page=10&sort=amount&sort_direction=asc&region=all&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,7549,1030,1,10,235,0,152
+1588683479718,500,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,29786,2121,1,10,0,9389,0
+1588683489107,229,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,2617,1145,1,10,229,0,158
+1588683489336,271,https://sroc-pre.aws.defra.cloud/,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,27169,976,1,10,226,0,0
+1588683489609,74,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,5670,339,1,10,0,42,0
+1588683489611,74,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,5670,339,1,10,74,0,0
+1588683468245,439,DownloadTransactionData_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,7661,909,1,10,0,25274,0
+1588683493482,439,https://sroc-pre.aws.defra.cloud/regimes/cfd/data_export,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,7661,909,1,10,438,0,180
+1588683476747,270,ReviewAnnualBillingData_WaterQuality_ViewCSVFile,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,8254,935,1,10,0,17252,0
+1588683493897,270,https://sroc-pre.aws.defra.cloud/regimes/cfd/annual_billing_data_files/36,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,8254,935,1,10,269,0,167
+1588683477036,2005,TransactionHistory_Waste_SearchForPermit,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17347,1039,1,10,0,16547,0
+1588683493583,2005,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=0712&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17347,1039,1,10,1967,0,338
+1588683489725,561,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,25015,1867,1,10,0,7304,0
+1588683497029,561,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,25015,1867,1,10,391,0,179
+1588683497592,135,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,23419,976,1,10,0,38,0
+1588683497594,135,https://sroc-pre.aws.defra.cloud/,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,23419,976,1,10,130,0,0
+1588683486873,298,ExcludedTransactions_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,24122,1083,1,10,0,13796,0
+1588683500627,298,https://sroc-pre.aws.defra.cloud/regimes/pas/exclusions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,24122,1083,1,10,253,0,153
+1588683482229,453,TransactionHistory_Installations_ChangeItemsPerPageTo20,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27358,1033,1,10,0,20012,0
+1588683502241,453,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=20&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27358,1033,1,10,362,0,162
+1588683504197,1887,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-2,,true,,5676,339,2,11,0,28,0
+1588683504208,1887,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,9) TCMSystemAdminNavigation 9-2,text,true,,5676,339,2,11,1840,0,1785
+1588683484666,1882,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,41542,2121,1,11,0,20007,0
+1588683494670,193,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,Concurrent Login Test1 10-1,text,true,,2617,1145,1,10,193,0,126
+1588683504865,1689,https://sroc-pre.aws.defra.cloud/,200,OK,Concurrent Login Test1 10-1,text,true,,38925,976,1,11,1534,0,1320
+1588683488120,2391,SetRegimeToWaste,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,24081,910,1,11,0,16108,0
+1588683504211,2391,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,24081,910,1,11,2222,0,2063
+1588683476644,589,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,34437,1857,1,11,0,29890,0
+1588683506534,589,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,34437,1857,1,11,430,0,241
+1588683507123,119,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,32821,976,1,11,0,45,0
+1588683507124,119,https://sroc-pre.aws.defra.cloud/,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,32821,976,1,11,112,0,0
+1588683497765,486,TransactionHistory_WaterQuality,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,24615,1078,1,11,0,9347,0
+1588683507082,486,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,24615,1078,1,11,441,0,126
+1588683494271,465,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,37914,2121,1,11,0,14922,0
+1588683509190,200,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,2617,1145,1,11,200,0,136
+1588683509391,265,https://sroc-pre.aws.defra.cloud/,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,35297,976,1,11,191,0,0
+1588683509659,55,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,5670,339,1,11,0,24,0
+1588683509659,55,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,5670,339,1,11,54,0,0
+1588683483231,206,ReviewAnnualBillingData_Installations_ViewCSVFile,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,12539,935,1,11,0,27208,0
+1588683510420,206,https://sroc-pre.aws.defra.cloud/regimes/pas/annual_billing_data_files/25,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,12539,935,1,11,205,0,114
+1588683507287,279,TransactionsToBeBilled_Waste_SortByCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,28620,1039,1,11,0,8795,0
+1588683516081,279,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=desc&region=A&fy=,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,28620,1039,1,11,276,0,137
+1588683506556,178,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,5676,339,1,11,0,10035,0
+1588683516558,178,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,Concurrent Login Test1 10-1,text,true,,5676,339,1,11,177,0,128
+1588683493958,482,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,30281,2121,1,11,0,24389,0
+1588683518345,232,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,2617,1145,1,11,232,0,138
+1588683518578,250,https://sroc-pre.aws.defra.cloud/,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,27664,976,1,11,177,0,0
+1588683518830,49,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,5670,339,1,11,0,16,0
+1588683518831,49,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,5670,339,1,11,49,0,0
+1588683495589,467,TransactionHistory_Waste_ViewTransaction,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,9153,888,1,11,0,25546,0
+1588683521133,467,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions/44960,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,9153,888,1,11,467,0,142
+1588683506619,397,TransactionHistory_Waste,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,22384,995,1,11,0,16324,0
+1588683522942,397,https://sroc-pre.aws.defra.cloud/regimes/wml/history,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,22384,995,1,11,344,0,118
+1588683500967,312,ExcludedTransactions_Installations_ChangeItemsPerPageTo15,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,28217,1083,2,11,0,25260,0
+1588683526199,312,https://sroc-pre.aws.defra.cloud/regimes/pas/exclusions?search=&page=1&per_page=15&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,28217,1083,2,11,278,0,115
+1588683502694,434,TransactionHistory_Installations_LastPage,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27962,1034,1,11,0,23422,0
+1588683526115,434,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=49&per_page=20&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27962,1034,1,11,359,0,115
+1588683516770,630,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,40527,1864,1,11,0,10002,0
+1588683526771,630,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,Concurrent Login Test1 10-1,text,true,,40527,1864,1,11,375,0,142
+1588683509738,554,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,36913,1867,1,11,0,19309,0
+1588683529047,554,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,36913,1867,1,11,327,0,134
+1588683529601,227,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,35310,976,1,11,0,18,0
+1588683529602,227,https://sroc-pre.aws.defra.cloud/,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,35310,976,1,11,179,0,0
+1588683510645,229,ReviewAnnualBillingData_Installations_Back,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,9762,935,1,11,0,19695,0
+1588683530339,229,https://sroc-pre.aws.defra.cloud/regimes/pas/annual_billing_data_files,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,9762,935,1,11,229,0,141
+1588683507597,456,TransactionHistory_WaterQuality_SetRegionToE,200,"Number of samples in transaction : 1, number of failing samples : 0",3) TCMReadOnlyWaterQuality 3-1,,true,,19464,1033,1,11,0,24764,0
+1588683532361,456,https://sroc-pre.aws.defra.cloud/regimes/cfd/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=E&fy=,200,OK,3) TCMReadOnlyWaterQuality 3-1,text,true,,19464,1033,1,11,424,0,123
+1588683506112,447,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-2,,true,,37309,1864,2,11,0,27619,0
+1588683533730,447,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,9) TCMSystemAdminNavigation 9-2,text,true,,37309,1864,2,11,306,0,118
+1588683534178,123,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-2,,true,,35715,976,2,11,0,15,0
+1588683534178,123,https://sroc-pre.aws.defra.cloud/,200,OK,9) TCMSystemAdminNavigation 9-2,text,true,,35715,976,2,11,94,0,0
+1588683523340,400,TransactionHistory_Waste_SortByTransactionRef,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,17695,1042,1,11,0,13319,0
+1588683536658,400,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=tcm_transaction_reference&sort_direction=asc&region=all&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,17695,1042,1,11,367,0,145
+1588683527403,431,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,38955,976,1,11,0,10041,0
+1588683537405,431,https://sroc-pre.aws.defra.cloud/,200,OK,Concurrent Login Test1 10-1,text,true,,38955,976,1,11,318,0,131
+1588683530569,367,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,37616,2121,1,11,0,11683,0
+1588683542250,190,https://sroc-pre.aws.defra.cloud/auth/sign_out,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,2617,1145,1,11,190,0,130
+1588683542441,177,https://sroc-pre.aws.defra.cloud/,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,34999,976,1,11,102,0,0
+1588683542620,50,HomePage,200,"Number of samples in transaction : 1, number of failing samples : 0",6) TCMBillingAdminInstallations 6-1,,true,,5670,339,1,11,0,19,0
+1588683542620,50,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,6) TCMBillingAdminInstallations 6-1,text,true,,5670,339,1,11,50,0,0
+1588683516361,519,TransactionsToBeBilled_Waste_SearchForCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",7) TCMBillingAdminWaste 7-1,,true,,28675,1044,1,11,0,26842,0
+1588683543202,519,https://sroc-pre.aws.defra.cloud/regimes/wml/transactions?search=A0101&page=1&per_page=10&sort=customer_reference&sort_direction=desc&region=A&fy=,200,OK,7) TCMBillingAdminWaste 7-1,text,true,,28675,1044,1,11,331,0,127
+1588683518896,932,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,29273,1861,1,11,0,23951,0
+1588683542834,932,https://sroc-pre.aws.defra.cloud/auth/sign_in,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,29273,1861,1,11,438,0,155
+1588683534316,587,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-2,,true,,25203,1078,2,11,0,8882,0
+1588683543181,587,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,9) TCMSystemAdminNavigation 9-2,text,true,,25203,1078,2,11,547,0,148
+1588683543780,297,TransactionsToBeBilled,200,"Number of samples in transaction : 1, number of failing samples : 0",5) TCMReadExportWaterQuality 5-1,,true,,27664,976,1,11,0,24,0
+1588683543780,297,https://sroc-pre.aws.defra.cloud/,200,OK,5) TCMReadExportWaterQuality 5-1,text,true,,27664,976,1,11,294,0,0
+1588683537059,1996,TransactionHistory_Waste_SearchForTransactionRef,200,"Number of samples in transaction : 1, number of failing samples : 0",4) TCMReadExportInstallationsandWaste 4-1,,true,,17649,1050,1,11,0,6299,0
+1588683543357,1996,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=N0000144&page=1&per_page=10&sort=tcm_transaction_reference&sort_direction=asc&region=all&fy=,200,OK,4) TCMReadExportInstallationsandWaste 4-1,text,true,,17649,1050,1,11,1963,0,122
+1588683526539,326,ExcludedTransactions_Installations_Page2,200,"Number of samples in transaction : 1, number of failing samples : 0",9) TCMSystemAdminNavigation 9-1,,true,,28733,1083,2,11,0,18541,0
+1588683545057,326,https://sroc-pre.aws.defra.cloud/regimes/pas/exclusions?search=&page=2&per_page=15&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,9) TCMSystemAdminNavigation 9-1,text,true,,28733,1083,2,11,256,0,136
+1588683537875,501,TransactionHistory_Installations,200,"Number of samples in transaction : 1, number of failing samples : 0",Concurrent Login Test1 10-1,,true,,25270,1078,1,11,0,10024,0
+1588683547876,501,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=A&fy=,200,OK,Concurrent Login Test1 10-1,text,true,,25270,1078,1,11,497,0,129
+1588683526550,817,TransactionHistory_Installations_SearchForCustomer,200,"Number of samples in transaction : 1, number of failing samples : 0",1) TCMReadOnlyInstallations 1-1,,true,,27380,1038,1,11,0,21385,0
+1588683547934,817,https://sroc-pre.aws.defra.cloud/regimes/pas/history?search=A1601&page=1&per_page=20&sort=customer_reference&sort_direction=asc&region=B&fy=,200,OK,1) TCMReadOnlyInstallations 1-1,text,true,,27380,1038,1,11,735,0,133
+1588683521601,498,TransactionHistory_Waste_ClearSearch,200,"Number of samples in transaction : 1, number of failing samples : 0",2) TCMReadOnlyWaste 2-1,,true,,17345,1035,1,11,0,29177,0
+1588683550777,498,https://sroc-pre.aws.defra.cloud/regimes/wml/history?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=all&fy=,200,OK,2) TCMReadOnlyWaste 2-1,text,true,,17345,1035,1,11,439,0,149
+1588683529846,419,TransactionsToBeBilled_WaterQuality_SetRegionToN,200,"Number of samples in transaction : 1, number of failing samples : 0",8) TCMBillingAdminWaterQuality 8-1,,true,,31022,1038,1,11,0,21041,0
+1588683550887,419,https://sroc-pre.aws.defra.cloud/regimes/cfd/transactions?search=&page=1&per_page=10&sort=customer_reference&sort_direction=asc&region=N&fy=,200,OK,8) TCMBillingAdminWaterQuality 8-1,text,true,,31022,1038,1,11,382,0,140
+1588683551276,0,SignOut,,,2) TCMReadOnlyWaste 2-1,,true,,0,0,1,11,0,0,0
+1588683532817,0,TransactionHistory_WaterQuality_ChangeItemsPerPageTo50,,,3) TCMReadOnlyWaterQuality 3-1,,true,,0,0,1,11,0,0,0
+1588683548753,0,TransactionHistory_Installations_ClearSearch,,,1) TCMReadOnlyInstallations 1-1,,true,,0,0,1,11,0,0,0
+1588683542690,0,Login,,,6) TCMBillingAdminInstallations 6-1,,true,,0,0,1,9,0,0,0
+1588683543722,0,TransactionsToBeBilled_Waste_ViewTransaction,,,7) TCMBillingAdminWaste 7-1,,true,,0,0,1,9,0,0,0
+1588683551307,0,TransactionsToBeBilled_WaterQuality_SearchForConsent,,,8) TCMBillingAdminWaterQuality 8-1,,true,,0,0,1,9,0,0,0
+1588683543785,0,TransactionHistory_Installations_SetRegionToB,,,9) TCMSystemAdminNavigation 9-2,,true,,0,0,2,7,0,0,0
+1588683544101,0,TransactionHistory_WaterQuality,,,5) TCMReadExportWaterQuality 5-1,,true,,0,0,1,7,0,0,0
+1588683548400,0,TransactionHistory_Installations_SetRegionToB,,,Concurrent Login Test1 10-1,,true,,0,0,1,6,0,0,0
+1588683545406,0,Admin_Installations_PermitCategories,,,9) TCMSystemAdminNavigation 9-1,,true,,0,0,1,5,0,0,0
+1588683545354,0,TransactionHistory_Waste_ViewTransaction,,,4) TCMReadExportInstallationsandWaste 4-1,,true,,0,0,1,11,0,0,0

@@ -1,0 +1,12 @@
+2019/03/11 13:43:01 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2019/03/11 13:43:02 INFO  - jmeter.JMeter: Loading user properties from: Z:\JMeter\apache-jmeter-2.12\bin\user.properties 
+2019/03/11 13:43:02 INFO  - jmeter.JMeter: Loading system properties from: Z:\JMeter\apache-jmeter-2.12\bin\system.properties 
+2019/03/11 13:43:02 FATAL - jmeter.JMeter: An error occurred:  java.lang.IllegalArgumentException: Unknown arg: C:\Users\Administrator\Desktop\SRoC TCM Jmeter Tests\PreProd Performance Tests\TCMPrePerformanceTestv2.jmx
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:602)
+	at org.apache.jmeter.JMeter.start(JMeter.java:294)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259)
+
