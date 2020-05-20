@@ -70,12 +70,12 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">600</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
         <stringProp name="ThreadGroup.delay">0</stringProp>
         <stringProp name="TestPlan.comments">Login as a Read only user with access to Installations regime and navigate various screens</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -1273,12 +1273,12 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">600</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
         <stringProp name="ThreadGroup.delay">20</stringProp>
         <stringProp name="TestPlan.comments">Login as a Read only user with access to Waste regime and navigate various screens</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -2176,12 +2176,12 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">600</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
         <stringProp name="ThreadGroup.delay">40</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
@@ -3460,13 +3460,13 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">5</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">180</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">600</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
-        <stringProp name="ThreadGroup.delay">80</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
+        <stringProp name="ThreadGroup.delay">60</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -5342,13 +5342,13 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">5</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">180</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">600</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
-        <stringProp name="ThreadGroup.delay">90</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
+        <stringProp name="ThreadGroup.delay">80</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -6496,13 +6496,13 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">300</stringProp>
+        <stringProp name="ThreadGroup.num_threads">4</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">400</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
-        <stringProp name="ThreadGroup.delay">50</stringProp>
+        <stringProp name="ThreadGroup.duration">400</stringProp>
+        <stringProp name="ThreadGroup.delay">90</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -7919,13 +7919,13 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">300</stringProp>
+        <stringProp name="ThreadGroup.num_threads">4</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">400</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
-        <stringProp name="ThreadGroup.delay">60</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
+        <stringProp name="ThreadGroup.delay">100</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -8866,13 +8866,13 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">300</stringProp>
+        <stringProp name="ThreadGroup.num_threads">4</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">400</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
-        <stringProp name="ThreadGroup.delay">70</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
+        <stringProp name="ThreadGroup.delay">110</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -10096,13 +10096,13 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">3</stringProp>
         <stringProp name="ThreadGroup.ramp_time">360</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
-        <stringProp name="ThreadGroup.delay">100</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
+        <stringProp name="ThreadGroup.delay">130</stringProp>
         <stringProp name="TestPlan.comments">Login as system admin and navigate various screens including administrator screens</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
@@ -11940,12 +11940,12 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">15</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">3</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">160</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">3600</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
         <stringProp name="ThreadGroup.delay">0</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
