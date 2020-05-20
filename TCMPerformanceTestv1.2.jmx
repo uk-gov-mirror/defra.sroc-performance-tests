@@ -13010,7 +13010,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree - Errors Only" enabled="true">
@@ -13084,7 +13084,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report (includes group name)" enabled="true">
@@ -13121,7 +13121,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
         <boolProp name="useGroupName">true</boolProp>
       </ResultCollector>
       <hashTree/>
@@ -13159,7 +13159,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Administrator\Desktop\SRoC TCM Jmeter Tests\Test Results\PreProd Environment Tests\Version 2.5\SDWTestResults.txt</stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
@@ -13195,11 +13195,14 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Program Files\Jmeter\apache-jmeter-5.2.1\Tests\SRoC TCM\PreProd Performance Tests\testresults.jtl</stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
         <intProp name="RespTimeGraph.legendplacement">1</intProp>
         <intProp name="RespTimeGraph.linestrockwidth">0</intProp>
         <stringProp name="RespTimeGraph.interval">1000</stringProp>
         <intProp name="RespTimeGraph.legendsize">0</intProp>
+        <intProp name="RespTimeGraph.graphtitlefondsize">0</intProp>
+        <intProp name="RespTimeGraph.graphtitlefontstyle">0</intProp>
+        <intProp name="RespTimeGraph.lineshapepoint">4</intProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
@@ -13275,6 +13278,11 @@
         </objProp>
         <stringProp name="filename">C:\Program Files\Jmeter\apache-jmeter-5.2.1\Tests\SRoC TCM\PreProd Performance Tests\testresults.jtl</stringProp>
       </ResultCollector>
+      <hashTree/>
+      <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+        <stringProp name="ConstantTimer.delay">1000</stringProp>
+        <stringProp name="RandomTimer.range">5000</stringProp>
+      </UniformRandomTimer>
       <hashTree/>
     </hashTree>
   </hashTree>
