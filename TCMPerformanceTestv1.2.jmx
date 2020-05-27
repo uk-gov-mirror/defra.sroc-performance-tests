@@ -6495,7 +6495,7 @@
         <stringProp name="ThreadGroup.num_threads">4</stringProp>
         <stringProp name="ThreadGroup.ramp_time">400</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">400</stringProp>
+        <stringProp name="ThreadGroup.duration">4000</stringProp>
         <stringProp name="ThreadGroup.delay">100</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
@@ -7211,12 +7211,6 @@
             <stringProp name="RegexExtractor.default">Transaction ID not found</stringProp>
             <stringProp name="RegexExtractor.match_number">1</stringProp>
           </RegexExtractor>
-          <hashTree/>
-          <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
-            <boolProp name="displayJMeterProperties">false</boolProp>
-            <boolProp name="displayJMeterVariables">true</boolProp>
-            <boolProp name="displaySystemProperties">false</boolProp>
-          </DebugSampler>
           <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
@@ -8855,12 +8849,6 @@
             <stringProp name="RegexExtractor.default">Transaction ID not found</stringProp>
             <stringProp name="RegexExtractor.match_number">1</stringProp>
           </RegexExtractor>
-          <hashTree/>
-          <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
-            <boolProp name="displayJMeterProperties">false</boolProp>
-            <boolProp name="displayJMeterVariables">true</boolProp>
-            <boolProp name="displaySystemProperties">false</boolProp>
-          </DebugSampler>
           <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="TransactionsToBeBilled_Waste_ViewTransaction" enabled="true">
@@ -13721,7 +13709,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Paul\Downloads\TCM Benchmark 200520 Pre_Prod\TCM_Benchmark_PreProd_200520.jtl</stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
         <boolProp name="ResultCollector.success_only_logging">true</boolProp>
       </ResultCollector>
       <hashTree/>
@@ -13759,7 +13747,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Paul\Downloads\TCM Benchmark Pre_Prod\TCM_Benchmark_PreProd_200520.jtl</stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
@@ -13796,7 +13784,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\Paul\Downloads\TCM Benchmark 200520 Pre_Prod\TCM_Benchmark_PreProd_200520.jtl</stringProp>
+        <stringProp name="filename">C:\Users\Paul\Downloads\report(2).jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report (includes group name)" enabled="true">
