@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Tactical Charging Model Performance Test (PreProd)" enabled="true">
-      <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.2.2.431. Please contact support@blazemeter.com for further support.</stringProp>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Performance Test of the Tactical Charging Module" enabled="true">
+      <stringProp name="TestPlan.comments">Run in the TCM pre-prod environment</stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
