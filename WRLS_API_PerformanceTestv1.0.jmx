@@ -19,17 +19,17 @@
           </elementProp>
           <elementProp name="" elementType="Header">
             <stringProp name="Header.name">Authorization</stringProp>
-            <stringProp name="Header.value">Bearer eyJraWQiOiIwVXFWWkpWMzBoUk1UWmN0d3lVYzZyNUJDQ0FnbTNyZ1M3UkF5QXJXOVNzPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIzdmtjY3ZncnY2ZnBnY21scGwxMGZqMG1mcSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiY2hhcmdpbmctbW9kdWxlLWFwaS10cmFcL3YxIiwiYXV0aF90aW1lIjoxNTk0MDI1NjU0LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9OajhxUDdwd0IiLCJleHAiOjE1OTQwMjkyNTQsImlhdCI6MTU5NDAyNTY1NCwidmVyc2lvbiI6MiwianRpIjoiMDViMjgwNTAtZTk1Yi00ZDRjLTg4YTEtZmI5OWQ5M2E5NWRjIiwiY2xpZW50X2lkIjoiM3ZrY2N2Z3J2NmZwZ2NtbHBsMTBmajBtZnEifQ.G9DuHt1w7BguxhwGHPssl9ykZgCct_sM7d7ei7Sxw8F3qr1GrkeywtSXCqxgoUTgyVeeaKTTcIZrSoKUHvY6I9Wq9vnL9za-sxENFFtVFBd6hBysKMnMuyTOe3LedUzaxAxlF4_ruBrIERxJQp7_tur80C-5TXAygnciikI-LebZ38E0-cgjkG4iHCJKi_Q7xJNiwKhEO_kODnTdrfhevuLlCmmw-Zunhbi4JcnHOecApY3_Daym80gR6SOcooCPvp_TmyNFv-uBtA6E1rwoynWRi3mFFHuMNtM6rV9HG5JL1Y7ReKzF8TOfHVIP83G8yIPqz0Bxcwnw0g797muRKQ</stringProp>
+            <stringProp name="Header.value">Bearer eyJraWQiOiJkTWRwemRMYVZGMEdycHlwWXBvbDBpMXBMUmFwYWs1Y1wvUW9MNlczTWwzOD0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxYjFnc2hsdHQxNzZ2ODBuc2M0Zmh0ZG41byIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiY2hhcmdpbmctbW9kdWxlLWFwaS10c3RcL3YxIiwiYXV0aF90aW1lIjoxNTk0MjgwNjY3LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9SZFhxd3Y2NFUiLCJleHAiOjE1OTQyODQyNjcsImlhdCI6MTU5NDI4MDY2NywidmVyc2lvbiI6MiwianRpIjoiOTllOWJhYjItNmM2OC00NzVkLWE4Y2EtOTk2MTUyZWRkM2VmIiwiY2xpZW50X2lkIjoiMWIxZ3NobHR0MTc2djgwbnNjNGZodGRuNW8ifQ.Y4lz-P9Nfyr47AfetVwPmT9PN0d1H56SjkgRthhRkYAB_QPOOC94kCvC-kHQ8ZY_Hs4AjEGGynMTHoAAb06TPBo0bE0vkdsr_x0ZpKri09WVOUAfHuISgHr_LiM9Qhr5Kz-HqPORniXRbzkoEvmOCV9EDRE7zxrmpMBnvbSL5e1GC7eR6fFYKg6tGNaTj7YjBD75-h0ZYATNSSFGm2XTwB5g5bCcA9EIKXoUtkdfpOl0bQjtkZJnpys5HRlcrjJ1gq_85HbIZNr1hGwDidM2zru34UdiEXjsWjRUZf3GD4cwcVCpCV-5IX449WaLAjJBJAPXATDmTnarwk0Ps0JGPg</stringProp>
           </elementProp>
         </collectionProp>
-        <stringProp name="TestPlan.comments">The Authorization token applies to INT. If running somewhere else it will need to be updated.  </stringProp>
+        <stringProp name="TestPlan.comments">The Authorization token applies to TST. When running in pre-prod the token will need to be updated</stringProp>
       </HeaderManager>
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="ApiHost" elementType="Argument">
             <stringProp name="Argument.name">ApiHost</stringProp>
-            <stringProp name="Argument.value">cha-tra.aws-int.defra.cloud</stringProp>
+            <stringProp name="Argument.value">cha-tst.aws-int.defra.cloud</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="csrfToken" elementType="Argument">
@@ -58,6 +58,7 @@
         <collectionProp name="DNSCacheManager.servers"/>
         <boolProp name="DNSCacheManager.clearEachIteration">true</boolProp>
         <boolProp name="DNSCacheManager.isCustomResolver">false</boolProp>
+        <collectionProp name="DNSCacheManager.hosts"/>
       </DNSCacheManager>
       <hashTree/>
       <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
@@ -78,7 +79,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">50</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">25</stringProp>
+        <stringProp name="ThreadGroup.num_threads">20</stringProp>
         <stringProp name="ThreadGroup.ramp_time">120</stringProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">3600</stringProp>
@@ -920,12 +921,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
-          <boolProp name="displayJMeterProperties">false</boolProp>
-          <boolProp name="displayJMeterVariables">true</boolProp>
-          <boolProp name="displaySystemProperties">false</boolProp>
-        </DebugSampler>
-        <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -1234,7 +1229,7 @@
       <hashTree/>
       <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
         <stringProp name="ConstantTimer.delay">1000</stringProp>
-        <stringProp name="RandomTimer.range">5000</stringProp>
+        <stringProp name="RandomTimer.range">20000</stringProp>
       </UniformRandomTimer>
       <hashTree/>
       <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
