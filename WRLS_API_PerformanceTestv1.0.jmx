@@ -58,7 +58,6 @@
         <collectionProp name="DNSCacheManager.servers"/>
         <boolProp name="DNSCacheManager.clearEachIteration">true</boolProp>
         <boolProp name="DNSCacheManager.isCustomResolver">false</boolProp>
-        <collectionProp name="DNSCacheManager.hosts"/>
       </DNSCacheManager>
       <hashTree/>
       <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
@@ -164,6 +163,154 @@
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/v1/wrls/calculate_charge</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Calculate standalone charge" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2019&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2020&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 214,&#xd;
+	&quot;authorisedDays&quot;: 214,&#xd;
+    &quot;volume&quot;: &quot;3.5865&quot;,&#xd;
+    &quot;source&quot;: &quot;Supported&quot;,&#xd;
+    &quot;season&quot;: &quot;Summer&quot;,&#xd;
+    &quot;loss&quot;: &quot;Low&quot;,&#xd;
+    &quot;twoPartTariff&quot;: false,&#xd;
+    &quot;compensationCharge&quot;: false,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Anglian&quot;,&#xd;
+	&quot;section126Factor&quot;: 1,&#xd;
+	&quot;section127Agreement&quot;: false,&#xd;
+	&quot;section130Agreement&quot;: false&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/calculate_charge</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add standard charge transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 365,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;100&quot;,&#xd;
+    &quot;source&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;season&quot;: &quot;Summer&quot;,&#xd;
+    &quot;loss&quot;: &quot;Low&quot;,&#xd;
+    &quot;twoPartTariff&quot;: false,&#xd;
+    &quot;compensationCharge&quot;: false,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: true,&#xd;
+	&quot;section130Agreement&quot;: false,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;Ergn_Jmeter_Trns1&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add standard charge transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 365,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;100&quot;,&#xd;
+    &quot;source&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;season&quot;: &quot;Summer&quot;,&#xd;
+    &quot;loss&quot;: &quot;Low&quot;,&#xd;
+    &quot;twoPartTariff&quot;: false,&#xd;
+    &quot;compensationCharge&quot;: false,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: true,&#xd;
+	&quot;section130Agreement&quot;: false,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;Ergn_Jmeter_Trns1&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -323,12 +470,168 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Re-add standard charge transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 365,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;100&quot;,&#xd;
+    &quot;source&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;season&quot;: &quot;Summer&quot;,&#xd;
+    &quot;loss&quot;: &quot;Low&quot;,&#xd;
+    &quot;twoPartTariff&quot;: false,&#xd;
+    &quot;compensationCharge&quot;: false,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: true,&#xd;
+	&quot;section130Agreement&quot;: false,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;Ergn_Jmeter_Trns1&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
         <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor - get transactionId" enabled="true">
           <stringProp name="JSONPostProcessor.referenceNames">transaction_id</stringProp>
           <stringProp name="JSONPostProcessor.jsonPathExprs">$..id</stringProp>
           <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
           <stringProp name="JSONPostProcessor.defaultValues">Transaction id not found!</stringProp>
         </JSONPostProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add compensation charge transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 360,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;100&quot;,&#xd;
+    &quot;source&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;season&quot;: &quot;Winter&quot;,&#xd;
+    &quot;loss&quot;: &quot;Medium&quot;,&#xd;
+    &quot;twoPartTariff&quot;: false,&#xd;
+    &quot;compensationCharge&quot;: true,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: true,&#xd;
+	&quot;section130Agreement&quot;: false,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;Ergn_Jmeter_Trns2&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add compensation charge transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 360,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;100&quot;,&#xd;
+    &quot;source&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;season&quot;: &quot;Winter&quot;,&#xd;
+    &quot;loss&quot;: &quot;Medium&quot;,&#xd;
+    &quot;twoPartTariff&quot;: false,&#xd;
+    &quot;compensationCharge&quot;: true,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: true,&#xd;
+	&quot;section130Agreement&quot;: false,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;Ergn_Jmeter_Trns2&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add compensation charge transaction to Bill Run - Region E" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -434,6 +737,129 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add second part transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 360,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;1000&quot;,&#xd;
+    &quot;source&quot;: &quot;Supported&quot;,&#xd;
+    &quot;season&quot;: &quot;Winter&quot;,&#xd;
+    &quot;loss&quot;: &quot;High&quot;,&#xd;
+    &quot;twoPartTariff&quot;: true,&#xd;
+    &quot;compensationCharge&quot;: false,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: false,&#xd;
+	&quot;section130Agreement&quot;: true,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;RgnE_Jmeter_Trns3&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Add second part transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 360,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;1000&quot;,&#xd;
+    &quot;source&quot;: &quot;Supported&quot;,&#xd;
+    &quot;season&quot;: &quot;Winter&quot;,&#xd;
+    &quot;loss&quot;: &quot;High&quot;,&#xd;
+    &quot;twoPartTariff&quot;: true,&#xd;
+    &quot;compensationCharge&quot;: false,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: false,&#xd;
+	&quot;section130Agreement&quot;: true,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;RgnE_Jmeter_Trns3&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET - View Bill Run - Region E" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="DELETE - delete matching transactions from bill run" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -495,6 +921,102 @@
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - re-add second part transaction to Bill Run - Region E" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2020&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2021&quot;,&#xd;
+    &quot;credit&quot;: false,&#xd;
+	&quot;billableDays&quot;: 360,&#xd;
+	&quot;authorisedDays&quot;: 365,&#xd;
+    &quot;volume&quot;: &quot;1000&quot;,&#xd;
+    &quot;source&quot;: &quot;Supported&quot;,&#xd;
+    &quot;season&quot;: &quot;Winter&quot;,&#xd;
+    &quot;loss&quot;: &quot;High&quot;,&#xd;
+    &quot;twoPartTariff&quot;: true,&#xd;
+    &quot;compensationCharge&quot;: false,&#xd;
+    &quot;eiucSource&quot;: &quot;Tidal&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Thames&quot;,&#xd;
+	&quot;section127Agreement&quot;: false,&#xd;
+	&quot;section130Agreement&quot;: true,&#xd;
+    &quot;customerReference&quot;: &quot;E1234567890A&quot;,&#xd;
+    &quot;lineDescription&quot;: &quot;Drains within Littleport &amp; Downham IDB&quot;,&#xd;
+    &quot;licenceNumber&quot;: &quot;RgnE_Jmeter_Trns3&quot;,&#xd;
+    &quot;chargePeriod&quot;: &quot;01-APR-2020 - 31-MAR-2021&quot;,&#xd;
+    &quot;chargeElementId&quot;: &quot;1&quot;,&#xd;
+    &quot;batchNumber&quot;: &quot;Auto&quot;,&#xd;
+    &quot;region&quot;: &quot;E&quot;,&#xd;
+    &quot;areaCode&quot;: &quot;ARCA&quot;,&#xd;
+    &quot;newLicence&quot;: true&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/billruns/${billRunId}/transactions</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Calculate standalone charge" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;periodStart&quot;: &quot;01-APR-2019&quot;,&#xd;
+    &quot;periodEnd&quot;: &quot;31-MAR-2020&quot;,&#xd;
+    &quot;credit&quot;: true,&#xd;
+	&quot;billableDays&quot;: 214,&#xd;
+	&quot;authorisedDays&quot;: 214,&#xd;
+    &quot;volume&quot;: &quot;3.5865&quot;,&#xd;
+    &quot;source&quot;: &quot;Supported&quot;,&#xd;
+    &quot;season&quot;: &quot;Summer&quot;,&#xd;
+    &quot;loss&quot;: &quot;Low&quot;,&#xd;
+    &quot;twoPartTariff&quot;: false,&#xd;
+    &quot;compensationCharge&quot;: true,&#xd;
+    &quot;eiucSource&quot;: &quot;Unsupported&quot;,&#xd;
+    &quot;waterUndertaker&quot;: false,&#xd;
+    &quot;regionalChargingArea&quot;: &quot;Dee&quot;,&#xd;
+	&quot;section126Factor&quot;: 0.5,&#xd;
+	&quot;section127Agreement&quot;: false,&#xd;
+	&quot;section130Agreement&quot;: false&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ApiHost}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/v1/wrls/calculate_charge</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
